@@ -1,0 +1,22 @@
+#container {
+    border: 3px solid black;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+#subject {
+    color:blue;
+    border: 2px solid red;
+    padding: 2px;
+    margin: 0%;
+}
+
+.task1 {
+    width: 20%;
+}
+
+.task2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
