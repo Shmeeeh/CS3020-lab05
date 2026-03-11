@@ -16,6 +16,13 @@
     font-size:18pt;
 }
 
+.albumDiv {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 5px;
+}
+
 .task1, .task2 {
     width: 30%;
 }

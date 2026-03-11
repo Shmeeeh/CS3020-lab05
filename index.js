@@ -78,12 +78,15 @@ function displayDescription(imageName) {
     switch(imageName) {
         case 'scholars':
             document.getElementById('albumName').innerHTML = 'The Scholars - Car Seat Headrest'
+            document.getElementById('albumIcon').src = 'thescholars.jpg'
             break;
         case 'flood':
             document.getElementById('albumName').innerHTML = 'Flood - They Might Be Giants'
+            document.getElementById('albumIcon').src = 'flood.jpg'
             break;
         case 'wbtg':
             document.getElementById('albumName').innerHTML = 'we\'ve been the garages - the garages'
+            document.getElementById('albumIcon').src = 'wbtg.jpg'
             break;
         default:
             break;
