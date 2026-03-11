@@ -7,7 +7,6 @@
         <script src="index.js" type="text/javascript"></script>
     </head>
     <body>
-        <p>Test paragraph</p>
         <div id="container" class="task1">
             <p id="subject">This text will change</p>
             <form>
@@ -26,29 +25,39 @@
         <div id="container" class="task2">
             <ul>
                 <li>
-                <label for="white">White BG</label>
-                <input type="radio" id="white" name="colors">
-                </li>
-                <li>
-                <label for="black">Black BG</label>
-                <input type="radio" id="black" name="colors">
-                </li>
-                <li>
-                <label for="black">Orange Text</label>
-                <input type="radio" id="orange" name="colors">
-                </li>
-                <li>
-                <label for="black">Black Text</label>
+                <label for="colors">Black Text</label>
                 <input type="radio" id="blackT" name="colors">
                 </li>
                 <li>
-                <label for="black">White Text</label>
+                <label for="colors">White Text</label>
                 <input type="radio" id="whiteT" name="colors">
+                </li>
+                <li>
+                <label for="colors">Orange Text</label>
+                <input type="radio" id="orange" name="colors">
+                </li>
+                <li>
+                <label for="colors">Blue Text</label>
+                <input type="radio" id="blue" name="colors" checked>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                <label for="bg">White Background</label>
+                <input type="radio" id="white" name="bg" checked>
+                </li>
+                <li>
+                <label for="bg">Black Background</label>
+                <input type="radio" id="black" name="bg">
+                </li>
+                <li>
+                <label for="bg">Brown Background</label>
+                <input type="radio" id="brown" name="bg">
                 </li>
             </ul>
         </div>
         <hr>
-        <p style="text-align:center;">observe mine photo gallery</p>
+        <p id="albumName" style="text-align:center;">Hover over an album cover to display its name!</p>
         <div id="container" class="task3">
             <!-- place 3 images here. figure out what to make them soon. maybe album covers :) -->
              <img id="scholars" src="thescholars.jpg" width="25%" height="25%">
