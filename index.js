@@ -3,6 +3,9 @@ function pageLoad() {
     document.getElementById('enlarge').onclick = enlargeFont;
     document.getElementById('shrink').onclick = shrinkFont;
     document.getElementsByName('colors').forEach(colorTest);
+    document.getElementById('scholars').onmouseover = function(){displayDescription('scholars')};
+    document.getElementById('flood').onmouseover = function(){displayDescription('flood')};
+    document.getElementById('wbtg').onmouseover = function(){displayDescription('wbtg')};
 }
 
 let text = 'I\'ve been changed!'; // Basic default value, unnecessary but was nice for testing
@@ -45,6 +48,10 @@ function colorTest(identity) {
                 break;
         }
     }
+}
+
+function displayDescription(imageName) {
+    console.log(imageName + ' yeahhh');
 }
 
 window.onload = pageLoad; // have to instantiate methods on pageload

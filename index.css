@@ -21,3 +21,14 @@
     flex-direction: column;
     width: 30%;
 }
+
+.task3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.task3 img {
+    border: 2px black dotted;
+    padding: 2px;
+}
